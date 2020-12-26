@@ -1,5 +1,8 @@
 import React from "react";
 
+
+//burda file da eger jsx elementi yeni komponent yoxdursa TodoContext.tsx yo TodoContext.ts etmek lazimdir, rufat demishdi
+
 export interface Todo {
   id: number;
   text: string;
