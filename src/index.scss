@@ -1,0 +1,38 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  padding: 0;
+  li {
+    background-color: #d9ecf2;
+    cursor: text;
+  }
+}
+
+h1 {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.container {
+  margin-top: 3rem;
+}
+
+.icon {
+  padding: 0.5rem !important;
+}
+
+.todo-from {
+  display: flex !important;
+  flex-wrap: nowrap;
+}
+
+.todo-text {
+  user-select: none;
+  cursor: pointer;
+}
